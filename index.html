@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	</head>
 
-	<body style="background-color: #FFFFFF" onload="run();" onresize="resize();" oncontextmenu="return false;">
+	<body style="background-color: #FFFFFF; overflow: hidden" onload="run();" onresize="resize();" oncontextmenu="return false;">
 		<!--nunuStudio lib-->
 		<script type="text/javascript" src="nunu.min.js"></script>
 
@@ -88,7 +88,7 @@
 		</div>
 
 		<!--Logo-->
-		<div id="logo" style="position:absolute; width:50%; left:25%; top:35%">
+		  <div id="logo" style="position:absolute; width:100vw; z-index:100;">
 			<img src="overlay.png" style="display:block; height:100vh; margin: auto;">
     <!--Loading bar-->
     <div style="position:absolute; width:100%; height:7%; left:0%; top:120%; border-style:solid; border-color:#908991; border-width:2px; z-index:200;">
